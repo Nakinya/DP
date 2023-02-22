@@ -1,0 +1,26 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+///<summary>
+///
+///</summary>
+public class WeaponGun : IWeapon
+{
+    public WeaponGun(int attkPoint, float attkRange, GameObject gameObject) : base(attkPoint, attkRange, gameObject) { }
+
+    protected override void PlayBulletEffect(Vector3 targetPosition)
+    {
+        DoPlayBulletEffectGeneric(0.05f, targetPosition);
+    }
+
+    protected override void PlaySoundEffect(Vector3 targetPosition)
+    {
+        DoPlaySoundEffectGeneric("GunShot", targetPosition);
+    }
+
+    protected override void SetEffectPlayTime()
+    {
+        mEffectPlayTime = 0.2f;
+    }
+}
