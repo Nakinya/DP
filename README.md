@@ -1,6 +1,5 @@
-<br />项目资源：链接：https://pan.baidu.com/s/1l7ulbLBWvIipHvrj5jMOpg 
-提取码：v9ez
-<br />演示视频：
+<br />项目资源及演示视频：链接：https://pan.baidu.com/s/1k_Gd9r7QGo_A_hP1JSqWrA 
+提取码：bgj1
 # 说明
 这个项目是一个rts游戏的子系统项目，同时也是作者设计模式学习项目，实现了一些基本功能，目前项目还不完善，许多功能还有待补充
 <br />项目整体结构类图位于此仓库的**项目结构.jpg**文件中，请下载查看
